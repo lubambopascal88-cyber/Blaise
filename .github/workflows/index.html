@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boat & Yacht Complete Page</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* General Page Styles */
+        body {
+            background-color: #e0f7fa; /* light blue */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            align-items: center;
+        }
+        main {
+            flex: 1;
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        /* Header & Navigation */
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #00796b;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #004d40;
+        }
+
+        /* Images */
+        .image-container {
+            display: inline-block;
+            margin: 10px;
+            border: 2px solid #00796b;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* Videos */
+        .video-container {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        /* Lists */
+        ul, ol {
+            text-align: left;
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        /* Tables */
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        /* Special Formatting */
+        mark { background-color: yellow; }
+        blockquote.indent { margin-left: 50px; font-style: italic; color: #555; }
+
+        /* Footer */
+        footer {
+            font-size: 0.9em;
+            color: gray;
+            margin-top: 20px;
+            padding: 10px 0;
+            width: 100%;
+            background-color: #b2ebf2;
+        }
+
+        /* Internal CSS Example */
+        p.paragraph2 { color: orange; font-weight: bold; }
+        h1.highlight2 { color: red; }
+        h3.building2 { color: brown; }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>Boat & Yacht Website</h2>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a> |
+        <a href="#">Testimonials</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <!-- Search Bar -->
+        <div>
+            <input type="text" placeholder="Search boats or yachts...">
+            <button style="background-color:#00796b; color:white; padding:5px 10px;">Search</button>
+        </div>
+
+        <hr>
+
+        <!-- Headings -->
+        <h1 class="highlight1" style="color: blue;">Luxury Yachts</h1> <!-- inline CSS -->
+        <h1 class="highlight2">Boat Adventures</h1> <!-- internal CSS -->
+        <h1 class="highlight3">Sea Travel</h1> <!-- external CSS -->
+        <h4>Water Lifestyle</h4>
+
+        <!-- Paragraphs -->
+        <p style="color: blue; font-style: italic;">Paragraph1: Boats offer comfort and adventure.</p> <!-- inline CSS -->
+        <p class="paragraph2">Paragraph2: Luxury on water made easy.</p> <!-- internal CSS -->
+        <p class="paragraph3">Paragraph3: Book now and enjoy your trip!</p> <!-- external CSS -->
+
+        <hr>
+
+        <!-- Images Section -->
+        <h2>Boat & Yacht Images</h2>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="200">
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1517520287167-4bbf64a00d66" width="200">
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1558680922-23a28e1d6b4d" width="200">
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1523952578875-0d554ab8b2e3" width="200">
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1506898662835-8e10eac88d5f" width="200">
+        </div>
+
+        <hr>
+
+        <!-- Videos Section -->
+        <h2>Boat Videos</h2>
+        <div class="video-container">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/5Q1oym9TjOs" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/5bJ3n89yVEA" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/c6ej2Zd7r0Q" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/wkqSRn1A0hc" allowfullscreen></iframe>
+        </div>
+
+        <hr>
+
+        <!-- Special Formatting -->
+        <p><b>Welcome to the Ultimate Yacht Experience</b></p>
+        <p><i>Explore the beauty of the seas in style and comfort.</i></p>
+        <p><u>Book your luxury yacht today!</u></p>
+        <p>Today's date is 17<sup>th</sup> February 2026</p>
+        <p>Chemical composition example: H<sub>2</sub>O</p>
+        <p><s>Old yacht prices (no longer valid)</s></p>
+        <p>Special offer: <mark>50% discount on first booking!</mark></p>
+        <p>"Sailing teaches patience and the joy of freedom."</p>
+        <blockquote class="indent">"Luxury yachts are not just transport—they are an experience." - Marine Times</blockquote>
+
+        <hr>
+
+        <!-- Lists -->
+        <h3>Unordered List: Yacht Features</h3>
+        <ul>
+            <li>Spacious Deck</li>
+            <li>Modern Kitchen</li>
+            <li>Jacuzzi on Deck</li>
+            <li>Wi-Fi & Entertainment</li>
+            <li>Safety Equipment Included</li>
+        </ul>
+
+        <h3>Ordered List: Booking Steps</h3>
+        <ol>
+            <li>Choose Yacht Model</li>
+            <li>Check Availability</li>
+            <li>Confirm Booking Dates</li>
+            <li>Make Payment</li>
+            <li>Enjoy Your Trip</li>
+        </ol>
+
+        <!-- Table -->
+        <h3>Yacht Price Table (10 Columns × 5 Rows)</h3>
+        <table>
+            <tr>
+                <th>Model</th><th>Length</th><th>Guests</th><th>Cabins</th><th>Bathrooms</th>
+                <th>Decks</th><th>Speed</th><th>Engine</th><th>Price/Day</th><th>Availability</th>
+            </tr>
+            <tr>
+                <td>Ocean Explorer</td><td>40 ft</td><td>12</td><td>4</td><td>3</td>
+                <td>2</td><td>28 knots</td><td>2x400 HP</td><td>$5,000</td><td>Available</td>
+            </tr>
+            <tr>
+                <td>Sea Breeze</td><td>35 ft</td><td>10</td><td>3</td><td>2</td>
+                <td>2</td><td>25 knots</td><td>2x350 HP</td><td>$4,000</td><td>Booked</td>
+            </tr>
+            <tr>
+                <td>Wave Rider</td><td>45 ft</td><td>14</td><td>5</td><td>4</td>
+                <td>3</td><td>30 knots</td><td>2x500 HP</td><td>$6,000</td><td>Available</td>
+            </tr>
+            <tr>
+                <td>Sun Chaser</td><td>38 ft</td><td>11</td><td>3</td><td>2</td>
+                <td>2</td><td>27 knots</td><td>2x400 HP</td><td>$4,500</td><td>Maintenance</td>
+            </tr>
+            <tr>
+                <td>Luxury Cruiser</td><td>50 ft</td><td>16</td><td>6</td><td>5</td>
+                <td>3</td><td>32 knots</td><td>2x600 HP</td><td>$7,500</td><td>Available</td>
+            </tr>
+        </table>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>© 2026 Ultimate Yacht Adventures. All rights reserved.</footer>
+</body>
+</html>
