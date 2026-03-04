@@ -1,0 +1,18 @@
+/* External CSS */
+p.paragraph3 {
+    color: purple;
+    text-decoration: underline;
+}
+
+h1.highlight3 {
+    color: green;
+}
+
+h3.building3 {
+    color: teal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
